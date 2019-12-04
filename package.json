@@ -1,0 +1,67 @@
+{
+  "_from": "datepicker-ns",
+  "_id": "datepicker-ns@2.0.3",
+  "_inBundle": false,
+  "_integrity": "sha512-1FXwQDBGI7kmdEMlQCwHZap55nfgCREJ/kLQhjV2xVjRkRSsC1Bkoz5K+3wiabb6TEYvDF67rI2QxgO5LB7KLw==",
+  "_location": "/datepicker-ns",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "datepicker-ns",
+    "name": "datepicker-ns",
+    "escapedName": "datepicker-ns",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/datepicker-ns/-/datepicker-ns-2.0.3.tgz",
+  "_shasum": "ee59f95e99a7c504d4b6c93b1261aa85a919ff31",
+  "_spec": "datepicker-ns",
+  "_where": "/Users/enikokancsar/Workspace/timesheep-ui",
+  "author": {
+    "name": "Ivanov.N",
+    "email": "nikaglichev@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/nsnayp/datepicker/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  },
+  "deprecated": false,
+  "description": "Angular datepicker, range pick date.",
+  "es2015": "fesm2015/datepicker-ns.js",
+  "esm2015": "esm2015/datepicker-ns.js",
+  "esm5": "esm5/datepicker-ns.js",
+  "fesm2015": "fesm2015/datepicker-ns.js",
+  "fesm5": "fesm5/datepicker-ns.js",
+  "homepage": "https://github.com/nsnayp/datepicker#readme",
+  "keywords": [
+    "datepicker",
+    "calendar",
+    "angular",
+    "date"
+  ],
+  "license": "MIT",
+  "main": "bundles/datepicker-ns.umd.js",
+  "metadata": "datepicker-ns.metadata.json",
+  "module": "fesm5/datepicker-ns.js",
+  "name": "datepicker-ns",
+  "peerDependencies": {
+    "@angular/common": "^7.2.0",
+    "@angular/core": "^7.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nsnayp/datepicker.git"
+  },
+  "sideEffects": false,
+  "typings": "datepicker-ns.d.ts",
+  "version": "2.0.3"
+}
