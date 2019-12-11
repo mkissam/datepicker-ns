@@ -152,7 +152,7 @@ var DatepickerComponent = /** @class */ (function () {
     /**
      * @return {?}
      */
-    DatepickerComponent.prototype.showNext = 
+    DatepickerComponent.prototype.showNext =
     // half
     /**
      * @return {?}
@@ -172,7 +172,7 @@ var DatepickerComponent = /** @class */ (function () {
     /**
      * @return {?}
      */
-    DatepickerComponent.prototype.showPrev = 
+    DatepickerComponent.prototype.showPrev =
     // half
     /**
      * @return {?}
@@ -400,7 +400,7 @@ var DatepickerComponent = /** @class */ (function () {
      * @param {?} date
      * @return {?}
      */
-    DatepickerComponent.prototype._getMonthsMatrix = 
+    DatepickerComponent.prototype._getMonthsMatrix =
     // half
     /**
      * @param {?} date
@@ -465,7 +465,7 @@ var DatepickerComponent = /** @class */ (function () {
      * @param {?} date
      * @return {?}
      */
-    DatepickerComponent.prototype.isNowDate = 
+    DatepickerComponent.prototype.isNowDate =
     // half
     /**
      * @param {?} date
@@ -570,13 +570,12 @@ var DatepickerComponent = /** @class */ (function () {
     /**
      * @return {?}
      */
-    DatepickerComponent.prototype.markselectDay = 
+    DatepickerComponent.prototype.markselectDay =
     // full
     /**
      * @return {?}
      */
     function () {
-        console.log("---------in mark selectDay");
         var e_1, _a;
         // tslint:disable-next-line: prefer-for-of
         for (var i = 0; i < this.calend.length; i++) {
@@ -611,7 +610,6 @@ var DatepickerComponent = /** @class */ (function () {
      * @return {?}
      */
     function (hoveredDate) {
-        console.log("---------in markPeriodDates");
         if (hoveredDate === void 0) { hoveredDate = null; }
         // tslint:disable-next-line: prefer-for-of
         for (var i = 0; i < this.calend.length; i++) {
